@@ -180,7 +180,7 @@ function transformLiquidityPoolsToTags(chainId: string, pools: LiquidityPool[]):
       "Contract Address": `eip155:${chainId}:${pool.outputToken.id}`,
       "Public Name Tag": `${truncatedNameText} Pool`,
       "Project Name": "Curve",
-      "UI/Website Link": "https://curve.fi",
+      "UI/Website Link": "https://www.curve.finance/",
       "Public Note": `Curve's ${pool.outputToken.symbol} (${pool.outputToken.name}) pool contract.`,
     };
   });
